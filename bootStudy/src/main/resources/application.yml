@@ -1,0 +1,19 @@
+jodconverter:
+  local:
+    enabled: true
+    office-home: C:\Program Files (x86)\OpenOffice 4
+    max-tasks-per-process: 10
+    port-numbers: 8100
+spring:
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    database: 1
+    #password: 123456
+    timeout: 5000
+  data:
+    elasticsearch:
+      cluster-name: elasticsearch
+      cluster-nodes: 192.168.1.57:9200
+      repositories:
+        enabled: true
